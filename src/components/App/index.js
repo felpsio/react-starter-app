@@ -56,8 +56,8 @@ function App() {
         onClose={handleClose}
         message={
           didUserLiked
-            ? 'You liked this'
-            : 'You unliked this'
+            ? 'You Liked this'
+            : 'You Unliked this'
         }
       />
     </Container>

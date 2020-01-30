@@ -5,10 +5,6 @@ import ThumbDownIcon from '@material-ui/icons/ThumbDown';
 import { Box } from '@material-ui/core'
 
 
-/*
-  Welcome developer! Please fully customize this component as needed.
-*/
-
 const LikeButton = ({numLikes, onClick, didUserLiked}) => {
   return <Button onClick={() => onClick()}>
     {
